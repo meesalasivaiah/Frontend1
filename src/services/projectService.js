@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API = 'http://localhost:8045/api/projects';
+const API = 'https://spring1-lxcc.onrender.com/api/projects';
 
 export const getAll = () => axios.get(API);
 
